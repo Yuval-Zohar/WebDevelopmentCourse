@@ -1,0 +1,171 @@
+body 
+{
+    direction:rtl;
+	background-color:#353535;
+	font-family: 'OpenSans', sans-serif;
+	font-weight: lighter;
+}
+#container
+{
+	width: 1200px;
+	height: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	background-image: url(../images/LOGO.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+#rightBlock
+{
+	width: 248px;
+	float: right;
+}
+#leftBlock
+{
+	width: 248px;
+	float: left;
+}
+.clear
+{
+	clear: both;
+}
+.square
+{
+	width: 246px;
+	height: 246px;
+	border: #D1A6FF 1px solid;
+	margin-bottom: 39px;
+}
+#square2
+{
+	width: 246px;
+	height: 246px;
+	border: #D1A6FF 1px solid;
+	margin-bottom: 39px;
+}
+.textSquare, .textSquare2
+{
+	color: white;
+	font-size: 25pt;
+	text-align: center;
+	display: block;
+}
+.textSquare
+{
+	line-height: 246px;
+}
+.textSquare2
+{
+	padding-top: 90px;
+}
+#myImg
+{
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 13px;
+}
+#myImg:hover
+{
+	-moz-transform: scale(0.8) rotate(4deg);
+	-webkit-transform: scale(0.8) rotate(4deg);
+	-o-transform: scale(0.8) rotate(4deg);
+	-ms-transform: scale(0.8) rotate(4deg);
+	transform: scale(0.8) rotate(4deg);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+#iconSquare
+{
+	padding: 32px;
+}
+#icon1, #icon2, #icon3, #icon4
+{
+	background-image: url(../images/sprite-contact1.png);
+	width: 77px;
+	height: 77px;	
+}
+#rightIcon
+{
+	height: 182px;
+	width: 77px;
+	float: right;
+}
+#leftIcon
+{
+	height: 182px;
+	width: 77px;
+	float: left;
+}
+#icon1
+{
+	background-position: 98% 0%;
+}
+#icon2
+{
+	background-position: 2% 99.5%;
+}
+#icon3
+{
+	background-position: 0% 0%;
+}
+#icon4
+{
+	background-position: 100% 99.5%;
+}
+#icon2, #icon4
+{
+	padding-bottom: 28px;
+}
+#icon1:hover, #icon2:hover, #icon3:hover, #icon4:hover
+{
+	background-image: url(../images/sprite-contact2.png);
+	width: 77px;
+	height: 77px;
+	-webkit-transition: all 0.8s ease-out;
+	-moz-transition: all 0.8s ease-out;
+	-ms-transition: all 0.8s ease-out;
+	-o-transition: all 0.8s ease-out;
+	transition: all 0.8s ease-out;
+}
+#icon1:hover
+{
+	background-position: 98% 0%;
+}
+#icon2:hover
+{
+	background-position: 2% 99.5%;
+}
+#icon3:hover
+{
+	background-position: 0% 0%;
+}
+#icon4:hover
+{
+	background-position: 100% 99.5%;
+}
+#icon2:hover, #icon4:hover
+{
+	padding-bottom: 28px;
+}
+.square:hover{
+	background-color: white;
+	-webkit-transition: all 0.8s ease-out;
+	-moz-transition: all 0.8s ease-out;
+	-ms-transition: all 0.8s ease-out;
+	-o-transition: all 0.8s ease-out;
+	transition: all 0.8s ease-out;
+}
+.absolute
+{
+	position: absolute;
+	color: #353535;
+	font-size: 30pt;
+	text-align: center;
+	width: 248px;
+	margin-top: 35px;
+}
