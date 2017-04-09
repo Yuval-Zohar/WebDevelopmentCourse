@@ -35,6 +35,7 @@ body
 	margin: 0px;
 	padding: 0px;
 	list-style-type: none;
+	margin-right: 385px;
 }
 #menu ul li {
 	float: right;
@@ -58,10 +59,6 @@ body
 }
 #menu a:active {
 	color: #353535;
-}
-#menu ul img {
-	padding-left: 320px;
-	padding-top: 6px;
 }
 #menu_box {
 	position: fixed;
