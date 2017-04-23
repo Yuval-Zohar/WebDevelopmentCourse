@@ -1,0 +1,142 @@
+body 
+{
+	direction: rtl;
+	background-color: #208588;
+	font-family: 'OpenSans', sans-serif;
+	font-weight: lighter;
+	background-repeat: no-repeat;
+	background-image: url(../images/bg.jpg);
+	background-position: top;
+}
+header
+{
+	margin-top: 160px;
+	text-align: center;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+}
+#container
+{
+	color: white;
+	font-size: 20pt;
+	width: 1200px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 235px;
+	text-align: center;
+}
+h1
+{
+	font-size: 44pt;
+	font-weight: normal;
+	margin-bottom: 3px;
+}
+#p2
+{
+	font-size: 63pt;
+}
+#p3
+{
+	font-size: 55pt;
+	margin-bottom: 22px;
+}
+.bold
+{
+	font-weight: bold;
+}
+#container p
+{
+	margin-top: 5px;
+}
+.myImg
+{
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease-out;
+	-ms-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+}
+.myImg:hover
+{
+	-moz-transform: scale(1.2) rotate(8deg);
+	-webkit-transform: scale(1.2) rotate(8deg);
+	-o-transform: scale(1.2) rotate(8deg);
+	-ms-transform: scale(1.2) rotate(8deg);
+	transform: scale(1.2) rotate(8deg);
+}
+.clear
+{
+	clear: both;
+}
+.icon, #iconLast, .iconText, #iconTextLast
+{
+	float: right;
+	margin-bottom: 10px;
+}
+.icon, .iconText
+{
+	margin-left: 165px;
+}
+#iconContainer
+{
+	width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.iconText, #iconTextLast
+{
+	width: 130px;
+	font-size: 18pt;
+}
+h2
+{
+	font-weight: bold;
+	font-size: 41pt;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+form
+{
+	width: 420px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: right;
+}
+input[type ='text']{
+    margin-bottom: 20px;
+	width: 420px;
+	height: 40px;
+	font-size: 18pt;
+	text-align: center;
+	font-family: 'OpenSans', sans-serif;
+}
+input[type ='submit']
+{
+	background-color: white;
+	color: #208588;
+	margin-top: 20px;
+	width: 100px;
+	height: 50px;
+	font-family: 'OpenSans', sans-serif;
+	font-size: 20pt;
+	font-weight: bold;
+	
+}
+input[type ='checkbox']
+{
+	height: 25px;
+	width: 25px;
+}
+.formText
+{
+	margin-bottom: 5px;	
+}
+#bSubmit
+{
+	width: 100px;
+	margin-right: auto;
+	margin-bottom: 100px;
+}

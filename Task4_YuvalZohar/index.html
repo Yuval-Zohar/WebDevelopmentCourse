@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>טכנולוגיות למידה - דף נחיתה</title>
+    <meta name="description" content="מחפשים תואר שיעניין אתכם? בואו לשמוע על טכנולוגיות למידה." />
+    <meta name="keywords" content="טכנולוגיות, למידה, המכון, הטכנולוגי, חולון, HIT, תואר, ראשון, שני" />
+    <meta name="author" content="יובל זהר" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="Fonts/OpenSans.css">
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+    
+</head>
+<body>
+	<header>
+		<h1>בעידן שלנו, מחפשים סופרמנים. אנשים רב-תחומיים.</h1>
+		<p id="p2">תמיד חלמתם להיות ממובילי העתיד?</p>
+		<p id="p3"><span class="bold">טכנולוגיות למידה</span> - זה התואר בשבילכם!</p>
+		<a href="http://www.hit.ac.il/" target="_blank"><div class="myImg"><img src="images/HIT.svg" width="120"/></div></a>
+	</header>
+	<div id="container">
+		<div id="iconContainer">
+			<div class="icon"><img src="images/pen.svg" width="130"/></div>
+			<div class="icon"><img src="images/code.svg" width="130"/></div>
+			<div id="iconLast"><img src="images/ux.svg" width="130"/></div>
+			<div class="clear"></div>
+			<p class="iconText">פיתוח וניהול הדרכה</p>
+			<p class="iconText">פיתוח סביבות אינטרקטיביות</p>
+			<p id="iconTextLast">עיצוב חווית משתמש</p>
+			<div class="clear"></div>
+		</div>
+		<h2>רוצים לשמוע עוד?</h2>
+		<form>
+			<input type="hidden" id="myEmail" name="name" value="yuvalzohar93@gmail.com">
+			<label for="name">
+				<div class="formText">שם מלא</div>
+			<input type="text" id="name" placeholder="הכנס את שמך המלא" />
+            </label>
+            <label for="mail">
+				<div class="formText">כתובת אימייל</div>
+			<input type="text" id="mail" placeholder="הכנס את המייל שלך" />
+            </label>
+			<label for="phone">
+				<div class="formText">טלפון</div>
+			<input type="text" id="phone" placeholder="הכנס מספר טלפון" />
+            </label>
+            <label for="cb1">
+            <input type="checkbox" id="cb1" checked /> אני מאשר לקבל דואר פירסומי
+            </label>
+			<div id="bSubmit"><input type="submit" id="Send" value="שלח"></div>
+			<div id="feedback"></div>
+		</form>
+	</div>
+</body>
+</html>
