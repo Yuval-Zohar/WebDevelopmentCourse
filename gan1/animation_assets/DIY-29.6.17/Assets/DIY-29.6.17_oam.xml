@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" name="DIY-29.6.17" version="1">
+
+<description type="text/html"><![CDATA[Widget Exported from Flash Professional]]></description>
+
+<category name="Flash Animation"/>
+<remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+<icon src="PosterImg_998.png" width="920" height="750"/>
+<require type="other" src="DIY-24.6.17.html"/>
+<require type="javascript" src="DIY-24.6.17.js"/>
+<require type="javascript" src="components/sdk/anwidget.js"/>
+<require type="javascript" src="components/video/src/video.js"/>
+<require type="other" src="videos/DesheHead.mp4"/>
+<require type="image" src="images/DIY_24.6.17_atlas_.png"/>
+<require type="image" src="images/VideoCover.jpg"/>
+<require type="folder" src="components"/>
+<require type="folder" src="components/sdk"/>
+<require type="folder" src="components/video"/>
+<require type="folder" src="videos"/>
+<require type="folder" src="images"/>
+<content></content>
+
+<properties name="Properties">
+<property name="default-width" defaultValue="920" hidden="true"/>
+<property name="default-height" defaultValue="750" hidden="true"/>
+<property name="resizable" defaultValue="false" hidden="true"/>
+<property name="centering" defaultValue="" hidden="true"/>
+<property name="scaling" defaultValue="" hidden="true"/>
+<property name="html-page" defaultValue="DIY-24.6.17.html" hidden="true"/>
+<property name="target-platform" defaultValue="htmlcanvas" hidden="true"/>
+<property name="created-in" defaultValue="Adobe Animate CC" hidden="true"/>
+</properties>
+
+</widget>
