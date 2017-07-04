@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>גן בעיר - מפת אתר</title>
+    <meta name="description" content="אם רציתם להקים גינה בבית שלכם ואין לכם מושג מאיפה להתחיל - הגעתם למקום המתאים" />
+    <meta name="keywords" content="גן, בעיר, גינה, חצר, פרחים, גינון, עירוני, אדנית" />
+    <meta name="author" content="שיר מסד, ירדן בן חיים, יובל זהר" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="Fonts/OpenSans.css">
+	<link rel="stylesheet" type="text/css" href="styles/scrollup_pill.css">
+	<link rel="stylesheet" type="text/css" href="styles/animsition.css">
+
+	<style>
+		body {
+			background-image: url(images/innerPage/secondaryMenu-withBlue.jpg)
+		}
+	</style>
+
+   
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/tab.js"></script>
+    <script src="jScripts/animsition.js"></script>
+	<script src="jScripts/jquery.scrollUp.min.js"></script>
+
+</head>
+<body onload="tab_nav()">
+    <header>
+        <div id="GreenTop">
+                <nav id="GreenTopNav" class="hor">
+                    <ul>
+						<li><a href="about.html" class="animsition-link" tabindex="4">אודות</a></li>
+						<li><a href="contact.html" class="animsition-link" tabindex="3">צור קשר</a></li>
+						<li><a href="siteMap.html" class="animsition-link" tabindex="2"><span id="pageSelectGreenTopNav">מפת אתר</span></a></li>
+                        <li><a href="#content-anchor" tabindex="1">דלג לתוכן העמוד</a></li>
+                    </ul>
+                </nav><div class="clear"></div>
+            </div>
+        <div id="BrownTop">
+                <nav id="TopNav" class="hor">
+                    <ul>
+                        <li><a class="animsition-link" href="index.html" tabindex="4"><div id="MenulLogo"><img src="images/SeparateLines/MenuLogo-width102px.svg" width="85" alt="לוגו אתר גן בעיר" /></div></a></li>
+                        <li>
+                            <a href="#" tabindex="5">כמה שעות?</a>
+                            <ul>
+                                <li><a class="notActive" href="#" tabindex="6">עד שעה</a></li>
+                                <li><a class="notActive" href="#" tabindex="7">שעה עד שלוש שעות</a></li>
+                                <li><a class="notActive" href="#" tabindex="8">שלוש שעות ומעלה</a></li>
+                            </ul>
+                        </li>
+                        <li>
+							<a href="#" tabindex="9">כמה תקציב?</a>
+                            <ul>
+                                <li><a href="500nis.html" class="animsition-link" tabindex="10">עד 500 ש"ח</a></li>
+                                <li><a class="notActive" href="#" tabindex="11">בין 500 ל-1000 ש"ח</a></li>
+                                <li><a class="notActive" href="#" tabindex="12">מעל 1000 ש"ח</a></li>
+                            </ul>
+                        </li>
+                        <li>
+							<a href="#" tabindex="13">כמה מרחב?</a>
+                            <ul>
+                                <li><a class="notActive" href="#" tabindex="14">אדן חלון</a></li>
+                                <li><a class="notActive" href="#" tabindex="15">מרפסת</a></li>
+                                <li><a class="notActive" href="#" tabindex="16">חצר פרטית</a></li>
+                                <li><a class="notActive" href="#" tabindex="17">חצר משותפת</a></li>
+                            </ul>
+                        </li>
+                        <li>
+							<a href="#" tabindex="18">עיצוב ואסתטיקה</a>
+                            <ul>
+                                <li><a class="notActive" href="#" tabindex="19">דוגמאות לסידור</a></li>
+                                <li><a class="notActive" href="#" tabindex="20">צמחים מיוחדים</a></li>
+                                <li><a href="diy.html" class="animsition-link" tabindex="21">עשה זאת בעצמך</a></li>
+                                <li><a class="notActive" href="#" tabindex="22">קישוטי גינה</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" tabindex="23">מידע שימושי</a>
+                            <ul>
+                                <li><a class="notActive" href="#" tabindex="24">תחזוקה עונתית</a></li>
+                                <li><a class="notActive" href="#" tabindex="25">רכישת צמחים</a></li>
+                                <li><a class="notActive" href="#" tabindex="26">אביזרים נחוצים</a></li>
+                                <li><a class="notActive" href="#" tabindex="27">צמצום זמן תחזוקה</a></li>
+                                <li><a class="notActive" href="#" tabindex="28">מידע על שיקום</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="notActive" href="#" tabindex="29">מילון מונחים</a>
+                        </li>
+                    </ul>
+                </nav><div class="clear"></div>
+            </div>
+        <div id="AdamaMenu"></div>
+
+        <div id="HeaderInnerPage">
+            <nav id="PeroryLechem" class="hor">
+                <ul>
+                    <li><a href="index.html" tabindex="30">גן בעיר</a></li>
+                    <li><a href="#" tabindex="31"><span class="colorLastChild">מפת אתר</span></a></li>
+                </ul>
+            </nav>
+			<div class="animsition"><a name="content-anchor"><h1>מפת אתר</h1></a></div>
+        </div>
+    </header>
+    <div id="container">
+        <div id="GreyClouds2"></div>
+        <div id="GreyBGinner">
+           <div class="animsition">
+            <div id="pGreyBGinner">
+                <div class="BoxList">
+                   <div class="map">
+					   <h2>כמה שעות פנויות?</h2>
+						<ul>
+							<li><a class="notActive" href="#" tabindex="32">עד שעה</a></li>
+							<li><a class="notActive" href="#" tabindex="33">שעה עד 3</a></li>
+							<li><a class="notActive" href="#" tabindex="34">3 שעות ומעלה</a></li>
+						</ul>
+					</div>
+					<div class="map">
+						<h2>כמה תקציב?</h2>
+						<ul>
+							<li><a href="500nis.html" class="animsition-link" tabindex="35">עד 500 ש"ח</a>
+								<ul>
+									<li><a href="perfectChecklist.html" class="animsition-link" tabindex="36">גינה בזול?! הצ'קליסט המושלם</a></li>
+								</ul>
+							</li>
+							<li><a class="notActive" href="#" tabindex="37">בין 500 ל-1000 ש"ח</a></li>
+							<li><a class="notActive" href="#" tabindex="38">מעל 1000 ש"ח</a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+					<div class="map">
+						<h2>כמה המרחב?</h2>
+						<ul>
+							<li><a class="notActive" href="#" tabindex="39">אדן החלון</a>
+								<ul>
+									<li><a href="window.html" class="animsition-link" tabindex="40">רשימת כללי מפתח לאדן חלון פורח</a></li>
+								</ul>
+							</li>
+							<li><a class="notActive" href="#" tabindex="41">חצר פרטית</a></li>
+							<li><a class="notActive" href="#" tabindex="42">מרפסת</a></li>
+							<li><a class="notActive" href="#" tabindex="43">חצר משותפת</a></li>
+						</ul>
+					</div>
+                    <div class="map">
+						<h2>עיצוב ואסתטיקה</h2>
+						<ul>
+							<li><a class="notActive" href="#" tabindex="44">דוגמאות לסידור</a></li>
+							<li><a class="notActive" href="#" tabindex="45">צמחים מיוחדים</a></li>
+							<li><a href="diy.html" class="animsition-link" tabindex="46">עשה זאת בעצמך</a></li>
+							<li><a class="notActive" href="#" tabindex="47">קישוטי גינה</a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+					<div class="map">
+						<h2>מידע שימושי</h2>
+						<ul>
+							<li><a class="notActive" href="#" tabindex="48">תחזוקה עונתית</a></li>
+							<li><a class="notActive" href="#" tabindex="49">רכישת צמחים</a></li>
+							<li><a class="notActive" href="#" tabindex="50">אביזרים נחוצים</a></li>
+							<li><a class="notActive" href="#" tabindex="51">צמצום זמן התחזוקה</a></li>
+							<li><a class="notActive" href="#" tabindex="52">מידע על שיקום</a></li>
+						</ul>
+					</div>
+					<div class="map">
+						<h2>עמודים נוספים</h2>
+						<ul>
+							<li><a class="notActive" href="#" tabindex="53">מילון מונחים</a></li>
+							<li><a href="siteMap.html" class="animsition-link" tabindex="54">מפת אתר</a></li>
+							<li><a href="contact.html" class="animsition-link" tabindex="55">צור קשר</a></li>
+							<li><a href="about.html" class="animsition-link" tabindex="56">אודות</a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+                </div>
+			   </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="GreenGrass"></div>
+		<div id="GreenBG">
+			<div id="pGreenBG">
+				<h2>טיפ השבוע</h2>
+				<p>כדי למנוע בעיות צנרת ולהאריך את חיי מערכת ההשקיה, מומלץ להשקות בתקופת החורף פעם אחת בשבוע, בלי לסגור את מערכת ההשקיה.</p>
+				</div>
+		</div>
+		<div id="hoeBlock"><div id="hoe"></div></div>
+        <div id="AdamaFooter"></div>
+        <div id="AdamaBG">
+            <div id="pAdamaBG">
+                <nav id="NavpAdamaBG" class="hor">
+                    <ul>
+                        <li><a href="about.html" tabindex="57">אודות</a></li>
+                        <li><a href="contact.html" tabindex="58">צור קשר</a></li>
+                        <li><a href="siteMap.html" tabindex="59">מפת אתר</a></li>
+                    </ul>
+                </nav><div class="clear"></div>
+				<p>חלק מהגרפיקות נלקחו מהאתר <a href="http://www.freepik.com" target="_blank" tabindex="60">FreePik</a></p>
+                <p>כל הזכויות של עיצוב האתר שמורות ליוצרות גן בעיר 2017</p>
+            </div>
+        </div>
+    </footer>
+    
+    	<script>
+$(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'zoom-in-sm',
+    outClass: 'zoom-out-sm',
+    inDuration: 3500,
+    outDuration: 1000,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+</script>
+
+<script>
+$(function () {
+  $.scrollUp({
+    scrollName: 'scrollUp', // Element ID
+    topDistance: '300', // Distance from top before showing element (px)
+    topSpeed: 300, // Speed back to top (ms)
+    animation: 'slide', // Fade, slide, none
+    animationInSpeed: 200, // Animation in speed (ms)
+    animationOutSpeed: 200, // Animation out speed (ms)
+    scrollText: 'חזור למעלה', // Text for element
+    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+  });
+});
+</script>
+
+</body>
+</html>

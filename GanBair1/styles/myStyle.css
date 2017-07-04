@@ -1,0 +1,891 @@
+.clear{
+    clear: both;
+}
+
+a:hover:focus
+{
+	background-color: #6CAFFF;
+}
+
+.notActive{
+  cursor: not-allowed;
+}
+
+body{
+	direction: rtl;
+	font-family: 'OpenSans', sans-serif;
+	background-image: url(../images/HomePage/BG-HomePage.jpg);
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: #B0D35C; 
+} 
+
+header, footer{
+  width:1920px;
+  height:auto;
+  margin-right:auto;
+  margin-left:auto;
+}
+                              /*<!---------- תפריט ירוק עליון ----------->*/
+#GreenTop{
+   background-color:#B0D35C;
+   width:1920px;
+   height:50px;
+}
+
+#GreenTopNav ul{
+    list-style:none;
+    width:960px;
+    margin:0 auto;
+}
+
+#GreenTopNav ul li{
+    display:inline-block;
+    float:left;
+}
+
+#GreenTopNav ul li a{
+	line-height: 15px;
+    display:block;
+    color:#3A1700;
+    text-decoration:none;
+    margin-left:29px;
+    font-size:12pt;
+    margin-top:18px;
+}
+
+#GreenTopNav ul li a:hover {
+	text-decoration: underline;
+}
+
+#pageSelectGreenTopNav {         
+	text-decoration: underline;
+}
+                                        /*<!---------- סוף תפריט ירוק עליון ----------->*/
+
+
+
+                                        /*<!---------- תפריט חום עליון ----------->*/
+
+#BrownTop{
+    background-color:#523422;
+    width:1920px;
+    height: 40px;
+}
+
+#MenulLogo{
+	margin-right: -15px;
+    margin-top: -5px;
+}
+
+nav.hor#TopNav ul{
+    list-style: none;
+    width: 960px; 
+    margin: 0 auto;
+	font-size: 13pt;
+
+}
+nav.hor#TopNav ul li{
+	display: inline-block;
+	float: right;
+}
+nav.hor#TopNav ul li a{
+	line-height: 20px;
+	display: block;
+	background-color: #523422;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 137px;
+	height: 31px;
+	Padding-top: 20px;
+	padding-bottom: 5px;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+
+}
+nav.hor#TopNav ul li a:hover{
+	color: #b0d35c;
+	text-decoration: underline;
+}
+nav.hor#TopNav ul li ul{
+	display: none;
+	position: absolute;
+	width: 158px;
+}
+	
+nav.hor#TopNav ul li ul a{
+    text-align:right;
+    font-size:10pt;
+	padding-right: 20px;
+	border-bottom: 1px solid #b0d35c;
+}
+
+nav.hor#TopNav ul li:hover > ul , nav.hor#TopNav ul li:focus > ul{
+	display: block;
+	width: 150px;
+}
+
+#pageSelectTopNav {
+	color: #b0d35c;
+}
+
+#AdamaMenu{
+    background-image:url(../images/SeparateLines/ADAMA-menu.svg);
+	width: 1920px;
+	height: 36px;
+	margin-top: -3px;
+	background-size: 106%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+                                    /*<!---------- סוף תפריט חום עליון ----------->*/
+#container{
+	width:1920px;
+	height:auto;
+	margin-right:auto;
+	margin-left:auto;
+}
+                                 
+                            /*<!---------- לוגו+ עיגולים + של עמוד בית ----------->*/
+
+
+#HeaderChoice{
+    width:960px;
+    height:230px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#bigLogo {
+	padding-top: 20px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#HeaderChoice p {
+	margin-top: 25px;
+}
+
+#slogen{
+    color:#486841;
+    font-size:20pt;
+    text-align:center;
+    background-color:#FFFFFF;
+}
+
+/* circles */
+
+#CirclesBox{
+    width:900px;
+    height:210px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:20px;
+	
+}
+
+.circles, #Last{
+    width: 190px;
+    height: 190px;
+    background-color: #425E3B;
+	opacity: .9;
+    border-radius: 300px;
+	display: inline-block;
+	position:absolute;
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.circleBlock {
+	width: 190px;
+    height: 190px;
+	float: right;
+	margin-left: 165px;
+	
+}
+
+#TimeIcon{
+    background-image:url(../images/HomePage/icon_Time-width51px.svg);
+    height:120px;
+    background-size:30%;
+    background-repeat:no-repeat;
+    background-position:center;
+    -webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+#MoneyIcon{
+    background-image:url(../images/HomePage/icon_Money-width55px.svg);
+    height:120px;
+    background-size:30%;
+    background-repeat:no-repeat;
+    background-position:center;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+#SpaceIcon{
+    background-image:url(../images/HomePage/icon_Space-width54px.svg);
+    height:120px;
+    background-size:30%;
+    background-repeat:no-repeat;
+    background-position:center;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+.circles p, #Last p, .circles a, #Last a{
+    text-align:center;
+    color:#FFFFFF;
+    font-size:15pt;
+    margin-top:-10px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+	text-decoration: none;
+}
+
+
+.hiddenCircles, #LastCircle{
+    display:none;
+	
+}
+
+.circles:hover, #Last:hover{
+    width:350px;
+    height:350px;
+    border-radius:180px; 
+    position:absolute;
+	display: inline-block;
+}
+
+#Last:hover #LastCircle, .circles:hover .hiddenCircles{
+    display:block;
+}
+
+
+.circles:hover #TimeIcon{
+    background-image:url(../images/HomePage/icon_Time-width51px.svg);
+    height:120px;
+    background-size:20%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.circles:hover #MoneyIcon{
+    background-image:url(../images/HomePage/icon_Money-width55px.svg);
+    height:120px;
+    background-size:20%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#Last:hover #SpaceIcon{
+    background-image:url(../images/HomePage/icon_Space-width54px.svg);
+    height:120px;
+    background-size:20%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.hiddenCircles ul li, #LastCircle ul li{
+    list-style-type:none;
+	border: 1px solid white; 
+    background-color:#FFFFFF;
+    border-radius:300px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+	width:58px;
+}
+
+.oneLineCircle {
+    height:55px;
+    padding-top:43px;
+}
+
+.twoLineCircle {
+    height:62px;
+    padding-top:36px;
+}
+
+.threeLineCircle {
+    height:70px;
+    padding-top:28px;
+}
+
+#LastCircle ul li, .hiddenCircles ul li, #LastCircle ul li a, .hiddenCircles ul li a{
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+} 
+
+#LastCircle ul li a, .hiddenCircles ul li a{
+    text-decoration:none;
+    color:#425E3B;
+    font-size:13pt;
+}
+
+#LastCircle ul li:hover, .hiddenCircles ul li:hover{
+	background-color: #425E3B;
+	border: 1px solid white;
+}
+
+#LastCircle ul li:hover a, .hiddenCircles ul li:hover a{
+    color: #FFFFFF;
+}
+
+
+.hiddenCircles ul li:first-child{
+    margin-right:22px;
+}
+
+.hiddenCircles ul li:nth-child(2){
+    margin-right:125px;
+    margin-top:-20px;
+}
+
+.hiddenCircles ul li:last-child{
+    margin-right:225px;
+    margin-top:-180px;
+}
+
+#LastCircle ul li:first-child{
+    margin-right:10px;
+    margin-top:-20px;
+}
+
+#LastCircle ul li:nth-child(2){
+    margin-right:70px;
+    margin-top:-5px;
+}
+
+#LastCircle ul li:nth-child(3){
+    margin-right:180px;
+    margin-top:-100px;
+}
+
+#LastCircle ul li:last-child{
+    margin-right:240px;
+    margin-top:-195px;
+}
+
+                      /*<!---------- סוף לוגו+ עיגולים + של עמוד בית ----------->*/
+
+                  /*<!---------- כותרות עמודים פנימיים+ תפריט פירורי לחם ----------->*/
+
+
+#HeaderInnerPage{
+    width:960px;
+    height:370px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#HeaderInnerPage h1{
+    color:#FFFFFF;
+    font-size:58pt;
+    text-align:center;
+    margin-top:70px;
+}
+
+#PeroryLechem {
+	padding-top: 30px;
+}
+
+#PeroryLechem ul li{
+    display:inline-block;
+    margin-top:50px;
+}
+
+#PeroryLechem ul li:after, #PeroryLechem ul li a {
+    content:" > ";
+    color:#FFFFFF;
+	font-size:20pt;
+    text-decoration:none;
+}
+
+#PeroryLechem ul li:last-child:after{
+    content:"";
+}
+
+.colorLastChild{
+    color:#C8E56E;
+    font-weight:bold;
+}
+               /*<!---------- סוף כותרות עמודים פנימיים+ תפריט פירורי לחם ----------->*/
+
+               /*<!---------- רקע כחול+ טקסט עמוד בית----------->*/
+          
+#BlueSky{
+    background-image:url(../images/SeparateLines/Blue-sky.svg);
+    height:128px;
+	margin-bottom: -4px;
+	background-size: 106%;
+	background-position: center;
+	background-repeat:no-repeat;
+}
+#BlueBG{
+    background-color:#1A78C5;
+    height:auto;
+}
+#pBlueBG{
+    width:960px;
+    height:370px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#pBlueBG h2{
+    color:#F4F4F4;
+    text-align:center;
+    font-size:42pt;
+	padding-top: 40px;
+}
+
+#pBlueBG p{
+    color:#F4F4F4;
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+    font-size:24pt;
+    margin-top:60px;
+	line-height: 55px;
+}
+                /*<!---------- סוף רקע כחול+ טקסט עמוד בית----------->*/
+
+                /*<!---------- עננים+רקע עמוד בית----------->*/
+
+#GreyClouds{
+    background-image:url(../images/SeparateLines/Grey-clouds.svg);
+    height:243px;
+    width:1920px;
+    background-repeat:no-repeat;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:-4px;
+	margin-bottom: -4px;
+	background-size: 106%;
+	background-position: center;
+}
+
+#GreyBG{
+    background-color:#F4F4F4;
+    height:auto;
+}
+
+#pGreyBG{
+    width:960px;
+    height:650px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#pGreyBG h2{
+    color:#3A1700;
+    text-align:center;
+    font-size:42pt;
+	padding-bottom: 20px;
+}
+                        /*<!---------- סוף עננים+רקע עמוד בית----------->*/
+
+                         /*<!---------- עננים+רקע עמודים פנימיים----------->*/
+
+#GreyClouds2{
+    background-image:url(../images/SeparateLines/Grey-clouds_innerPage.svg);
+    height:243px;
+    width:1920px;
+    background-repeat:no-repeat;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:-4px;
+	margin-bottom: -4px;
+	background-size: 106%;
+	background-position: center;
+}
+
+#GreyBGinner{
+    background-color:#F4F4F4;
+	margin-top: -30px;
+	padding-top: 20px;
+	padding-bottom: 110px;
+}
+
+#pGreyBGinner{
+    width:960px;
+    height:auto;
+    margin-right:auto;
+    margin-left:auto;
+	padding-top: 20px;
+}
+
+                    /*------- סוף עננים+רקע עמודים פנימיים-----------*/
+
+                    /*<!---------- תבנית של העמוד כתבות+ התמונות בצד----------->*/
+.BoxStory{
+    width:960px;
+    height:250px;
+    margin-top:20px;
+}
+.StoryPicture{
+    float:right;
+    width:210px;
+    height:210px;
+}
+
+#circlePic1 {
+	background-image: url(../images/HomePage/Homepage-1.png);
+}
+
+#circlePic2 {
+	background-image: url(../images/HomePage/Homepage-2.png);
+}
+
+#circlePic3 {
+	background-image: url(../images/innerPage/NewsPage3.png);
+}
+
+#circlePic4 {
+	background-image: url(../images/innerPage/NewsPage4.png);
+}
+
+#circlePic5 {
+	background-image: url(../images/innerPage/NewsPage5.png);
+}
+
+#circlePic6 {
+	background-image: url(../images/innerPage/NewsPage6.png);
+}
+
+.Story{
+    float:left;
+    height:210px;
+    width:699px;
+}
+.Story h2, .Story h3{
+    font-size:23pt;
+    color:#3A1700;
+    margin-top:30px;
+	margin-bottom: 10px;
+	font-weight:normal;
+	letter-spacing: 3px;
+}
+.Story p{
+	font-size: 14pt;
+	color: #3A1700;
+	line-height: 40px;
+}
+
+.Story p a, .BoxList a{ /*חדש*/
+    color:#1A78C5;
+	text-decoration: none;
+}
+
+.Story p a:hover, .BoxList a:hover { /*חדש*/
+	text-decoration: underline;
+                
+}
+            /*<!---------- סוף תבנית של העמוד כתבות+ התמונות בצד----------->*/
+
+#intro{
+    color:#523422;
+    font-size:26pt;
+    line-height:50px;
+    font-weight:normal;
+}
+                /*<!---------- תבנית של 2 העמודים הפנימיים----------->*/
+.BoxList{
+    margin-top:40px;
+}
+.BoxList h2{
+    color:#523422;
+    font-size:18pt;
+    margin-bottom:15px;
+}
+.BoxList ul{
+    margin-right:63px;
+}
+.BoxList ul li, .BoxList p{ /*חדש*/
+    color:#523422;
+    font-size:17pt;
+    line-height:50px;
+}
+.BoxList p { /*חדש*/
+	padding-top: 23px;
+}
+.BoldText{
+    font-weight:bold;
+}
+                    /*<!---------- סוף תבנית של 2 העמודים הפנימיים----------->*/
+
+                    /*<!---------- תמונות כתבות פנימיות----------->*/
+
+.innerSquarePic {
+	width: 942px;
+	height: 540px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+
+#squarePic1 {
+	background-image: url(../images/innerPage/checklist-1.jpg)
+}
+
+#squarePic2 {
+	background-image: url(../images/innerPage/checklist-2.jpg)
+}
+#squarePic3 {
+	background-image: url(../images/innerPage/window-1.jpg)
+}
+
+                    /*<!---------- סוף תמונות כתבות פנימיות----------->*/
+
+                    /*<!---------- צור קשר----------->*/
+
+form
+{
+	width: 420px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: right;
+	font-size: 18pt;
+}
+
+label {
+	display:block;
+}
+
+input[type ='text'] {
+	height: 40px;
+}
+
+input[type ='text'], textarea{
+    margin-bottom: 40px;
+	width: 420px;
+	font-size: 17pt;
+	text-align: center;
+	font-family: 'OpenSans', sans-serif;
+}
+
+textarea {
+	height: 300px;
+}
+
+input[type ='submit']
+{
+	background-color: #B0D35C;
+	color: #523422;
+	margin-top: 30px;
+	width: 100px;
+	height: 50px;
+	font-family: 'OpenSans', sans-serif;
+	font-size: 18pt;
+	font-weight: normal;
+	
+}
+input[type ='checkbox']
+{
+	height: 25px;
+	width: 25px;
+}
+.formText
+{
+	margin-bottom: 5px;	
+}
+#bSubmit
+{
+	width: 100px;
+	margin-right: auto;
+}
+
+                            /*<!---------- סוף צור קשר----------->*/
+
+                            /*<!---------- אודות----------->*/
+#aboutImg {
+	padding-top: 30px;
+	text-align: center;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 17pt;
+}
+
+#aboutImg img {
+	padding-top: 20px;
+}
+
+                          /*<!---------- סוף אודות----------->*/
+
+                          /*<!---------- מפת אתר----------->*/
+.map {
+	width: 410px;
+	float: right;
+	margin-left: 70px;
+	padding-bottom: 60px;
+}
+.map ul li ul li {
+	margin-right: -40px;
+}
+
+                            /*<!---------- סוף מפת אתר----------->*/
+
+                          /*<!---------- תמונת דשא+ רקע----------->*/
+#GreenGrass{
+    background-image:url(../images/SeparateLines/Green-grass.svg);
+    background-repeat:no-repeat;
+    height:142px;
+    width:1920px;
+	background-size: 100%;
+	background-position: center;
+	margin-top: -4px;
+	margin-bottom: -4px;
+}
+
+#GreenBG{
+    background-color:#B0D35C;
+	height:270px;
+}
+
+#pGreenBG{
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#pGreenBG h2{
+    color:#3A1700;
+    text-align:center;
+    font-size:42pt;
+	padding-top: 100px;
+}
+
+#pGreenBG p{
+    color:#3A1700;
+    font-size:24pt;
+    width:960px;
+    margin-top:60px;
+	line-height: 55px;
+}
+
+                        /*<!---------- סוף תמונת דשא+ רקע----------->*/
+
+                /*<!---------- תמונה של אדמה+ רקע+ מעדר+ תפריט ניווט תחתון----------->*/
+#AdamaFooter{
+    background-image:url(../images/SeparateLines/ADAMA-footer.svg);
+    background-repeat:no-repeat;
+    width:1920px;
+    height:49px;
+	margin-top: -4px;
+	margin-bottom: -4px;
+	background-size: 106%;
+	background-position: center;
+}
+
+#AdamaBG{
+    background-color:#523422;
+    height:230px;
+}
+
+#pAdamaBG{
+    width:502px;
+    height:170px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#NavpAdamaBG {
+	padding-top: 25px;
+	margin-bottom: 90px;
+}
+#NavpAdamaBG ul{
+    list-style:none;
+    width: 435px; 
+    margin:0 auto;
+}
+
+#NavpAdamaBG ul li{
+    display:inline-block;
+    float:right;
+}
+
+#NavpAdamaBG ul li a{
+    display:block;
+    color:#FFFFFF;
+    text-decoration:none;
+    width:145px;
+    text-align:center;	
+    margin-top:20px;
+    font-size:18pt;
+    font-weight:bold;
+}
+
+#NavpAdamaBG ul li a:hover {
+	text-decoration: underline;
+}
+
+#pAdamaBG p{
+	font-size: 14pt;
+    color:#FFFFFF;
+    margin-top:10px;
+    text-align:center;
+}
+
+#pAdamaBG p a {
+	text-decoration: none;
+	color:#B0D35C;
+}
+
+#pAdamaBG p a:hover {
+	text-decoration: underline;
+}
+
+#hoeBlock {
+	padding-bottom: 160px;
+	background-color: #B0D35C;
+	margin-right:auto;
+	margin-left:auto;
+	width: 1920px;
+}
+
+#hoe {
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+	background-image: url(../images/SeparateLines/Hoe-width79px.svg);
+	width: 1920px;
+	height: 179px;
+	background-position: 30% 0;
+	z-index: 1;
+	background-repeat: no-repeat;
+}
+
+        /*<!---------- סוף תמונה של אדמה+ רקע+ מעדר+ תפריט ניווט תחתון----------->*/
+
+
+
+
+
+
