@@ -1,0 +1,309 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>mooc | פתרון בעיות</title>
+    <meta name="description" content="מוק" />
+    <meta name="keywords" content="מוק" />
+    <meta name="author" content="חלי בל, יובל זהר" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="Fonts/OpenSans.css">
+    <link rel="stylesheet" type="text/css" href="styles/scrollup_pill.css">
+    <link rel="stylesheet" type="text/css" href="styles/animsition.css">
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/animsition.js"></script>
+    <script src="jScripts/jquery.scrollUp.min.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+    <script src="jScripts/popUp.js"></script>
+
+</head>
+
+<body onload="popUp()">
+    <header>
+        <div id="blackTopNav">
+            <nav id="TopNav">
+                <ul>
+                    <li class="responsiveMenu"><a class="animsition-link" href="index.html" tab index="4"><div id="MenulLogo"><img src="images/moocLogoWhite.svg" /></div></a></li>
+                    <li class="responsiveMenu">
+                        <a href="#" style="padding-right: 2vw;">אסטרטגיות לימוד</a>
+                        <ul>
+                            <li><a href="aknaya.html" class="animsition-link">הקניית ידע</a></li>
+                            <li><a href="reflective.html" class="animsition-link">חשיבה רפלקטיבית</a></li>
+                            <li><a href="brainStorm.html" class="animsition-link">סיעור מוחות</a></li>
+                            <li><a href="conflict.html" class="animsition-link">פתרון בעיות</a></li>
+                            <li><a href="caseStudy.html" class="animsition-link">חקר מקרה</a></li>
+                        </ul>
+                    </li>
+                    <li class="responsiveMenu">
+                        <a href="#" style="padding-right: 2vw;">דוגמאות תוכן</a>
+                        <ul>
+                            <li><a href="aknayaExm.html" class="animsition-link">הקניית ידע</a></li>
+                            <li><a href="reflectiveExm.html" class="animsition-link">חשיבה רפלקטיבית</a></li>
+                            <li><a href="brainStormExm.html" class="animsition-link">סיעור מוחות</a></li>
+                        </ul>
+                    </li>
+                    <li class="responsiveMenu">
+                        <button id="aboutButton" href="#aboutModal" class="modal-button">אודות</button>
+                    </li>
+                </ul>
+            </nav><div class="clear"></div>
+        </div>
+
+        <div id="yellowDiv">
+            <div class="animsition">
+                <!-- אנימציה -->
+                <div id="yellowHeader">
+                    <div id="yellowTitle">
+                        <h1>פתרון בעיות</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="container">
+        <div id="whiteContainer" class="pagesWhiteContainer">
+
+            <!-- The Modal - about -->
+            <div id="aboutModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">×</span>
+                        <h2>אודות</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div id="aboutImage"><img src="images/moocLogo.svg" /></div>
+                        <div class="aboutText">אתר המשמש כלי עזר לפיתוח MOOC</div><br />
+                        <div class="aboutText">פרויקט גמר, תש"פ</div>
+                        <div id="hitLink"><a href="https://www.hit.ac.il/telem/overview" target="_blank">הפקולטה לטכנולוגיות למידה</a></div>
+                        <div class="creditBox">
+                            <div class="logoImg"><img src="images/hitLogo.jpg" /></div>
+                            <div class="creditText">
+                                <h4>צוות הפרויקט:</h4>
+                                חלי בל ויובל זהר
+                                <h4>מנחות:</h4>
+                                ד"ר חגית מישר-טל ורעות בכר
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="creditBox">
+                            <div class="logoImg"><img src="images/mofetLogo.jpg" /></div>
+                            <div class="creditText">
+                                בשיתוף עם מכון מופ"ת
+                                <br />
+                                נציגי הארגון: דורין עמר פסט,<br />ד"ר רותי סולומון ואסף עמית
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <p>© כל הזכויות שמורות למכון הטכנולוגי חולון HIT</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end of The Modal - about -->
+
+
+            <div class="grey4">למידה בדרך של פתרון בעיות היא תהליך למידה הבסיסי המאפיין בני אדם ומאפשר להם את לשרוד בסביבתם. פתרון בעיות חיוני לתפקוד מוצלח בעידן המידע והתקשורת שבו אנו חיים.</div>
+            <div class="darkGrey2">בשיטת הלמידה המבוססת על פתרון בעיות, מוצגת לתלמידים בעיה מורכבת, אותנטית ורלוונטיות לעולמם, ללא רמזים וללא הכוונה לפתרון.</div>
+            <div class="grey4">הבעיה המוצגת אינה מובנית ופתרונה אינו ידוע ללומדים. התלמידים נדרשים לנתח את הבעיה ונסיבותיה, להעלות רעיונות לפתרון, לבחון לעומק כל רעיון, לבחור את הפתרון/ות המתאימים ביותר ולהתוות תכנית לתהליך הפתרון ולהערכתו.</div>
+            <div class="darkGrey2">מדובר בלמידה פעילה ועצמאית שבה הלומדים מעורבים מבחינה רגשית וקוגניטיבית וחשים בעלות על תהליך הלמידה שלהם.</div>
+            <div class="grey4">פתרון בעיות הוא תהליך מורכב, שניתן לאפיינו באמצעות מודל הבנוי מארבעה אשכולות של מיומנויות, שהשילוב ביניהם תורם להשגת המטרה.</div>
+            <div class="darkGrey2" style="margin-bottom: 6vw;">האשכול המרכזי (חקירה / הערכה / ביצוע) משתלב בכל אחד מהאשכולות ההיקפיים.</div>
+
+            <div class="yellowDivRight2">
+
+                <div class="containerYellow">
+                    <div class="yellowSquare">1</div>
+                    <div class="overlay">
+                        <div class="textHoverYellow">ניתוח נסיבות הבעיה (מהו ההקשר? מהם הסימפטומים? מהם הצרכים/משאלות? מהם הגורמים לבעיה? מהם הדרישות מהפתרון או הפתרונות? האם יש מגבלות כלשהן שעתידות להשפיע על הפתרון?).</div>
+                    </div>
+                </div>
+                <div class="yellowSquareText2">הבנת הבעיה</div>
+            </div>
+            <div class="greyArrow2"></div>
+            <div class="yellowDivRight2">
+                <div class="containerYellow">
+                    <div class="yellowSquare">2</div>
+                    <div class="overlay">
+                        <div class="textHoverYellow">העלאת רעיונות/השערות לפתרון (חשיבה יצירתית), הערכת הרעיונות (חשיבה ביקורתית), קבלת החלטות על אודות הרעיונות המתאימים ביותר, תכנון הפתרון.</div>
+                    </div>
+                </div>
+                <div class="yellowSquareText2">העלאת רעיונות לפתרון הבעיה</div>
+            </div>
+            <div class="greyArrow2"></div>
+            <div class="yellowDivRight2">
+                <div class="containerYellow">
+                    <div class="yellowSquare">3</div>
+                    <div class="overlay">
+                        <div class="textHoverYellow" style="font-size: 0.9vw; line-height: 1.1vw;">תכנון דרכי החקירה (כגון: סקרים, ראיונות, ניסויים ותצפיות, ניתוח מסמכים), תכנון סדרת ההליכים לפתרון הבעיה, תכנון המשאבים הדרושים לפתרון הבעיה (כגון: מידע, זמן, גורמים אנושיים וכדומה). ביצוע מהלך והצגתו בדרכים מתאימות (עבודה עיונית, דגם וכדומה) תוך הצגת נימוקים התומכים בתהליך ובפתרון.</div>
+                    </div>
+                </div>
+                <div class="yellowSquareText2">תכנון דרכי פתרון לבעיה</div>
+            </div>
+            <div class="greyArrow2"></div>
+            <div class="yellowDivLeft2">
+                <div class="containerYellow">
+                    <div class="yellowSquare">4</div>
+                    <div class="overlay">
+                        <div class="textHoverYellow" style="font-size: 0.9vw; line-height: 1.1vw;">הפעולות באשכול זה מבוצעות כל העת באשכולות א-ג: ביצוע פעולות חקירה ללמידת תוכן באמצעות כלים מידעניים וכלים ייחודיים לתחומי הדעת (סקרים, ראיונות, מידע מהרשת, תצפיות, ניסויים, ניתוח מסמכים וכדומה). ביצוע תהליכי הערכה המשולבים בתהליכים מטא-קוגניטיביים לשיפור תהליך הלמידה והפתרון.</div>
+                    </div>
+                </div>
+                <div class="yellowSquareText2">הערכה / חקירה / ביצוע</div>
+            </div>
+            <div class="clear"></div>
+
+            <!-- אקורדיון -->
+
+            <div class="yellow2">ללמידה מבוססת על פתרון בעיות על פי תפיסה זו יש מטרות מרכזיות:</div>
+            <button class="accordion">
+                <div class="accordionNum">1</div>
+                <div class="accordionTitle">הגברת המוטיבציה ללמידה</div>
+            </button>
+            <div class="panel">
+                <p>הגברת המוטיבציה ללמידה והעברת האחריות של הלמידה על כל היבטיה ללומדים</p>
+            </div>
+
+            <button class="accordion">
+                <div class="accordionNum">2</div>
+                <div class="accordionTitle">פיתוח יכולת של "הכוונה עצמית בלמידה"</div>
+            </button>
+            <div class="panel">
+                <p>פיתוח יכולת "הכוונה עצמית בלמידה"  (learning regulated-self)יכולות קוגניטיביות פיתוח יכולות של "הכוונה עצמית בלמידה" ומטא-קוגניטיביות, אוריינטציות מוטיבציוניות (כגון: נטיות והרגלי למידה) והתנהגותיות (כגון: ניהול זמן ובחירת שיטות ללמידה)</p>
+            </div>
+
+            <button class="accordion">
+                <div class="accordionNum">3</div>
+                <div class="accordionTitle">פיתוח יכולת גנרית של פתרון בעיות</div>
+            </button>
+            <div class="panel">
+                <p>פיתוח יכולת גנרית של פתרון בעיות, שניתן יהיה להשתמש בה לפתרון בעיות חדשות ובלתי מוכרות. יכולת זו כוללת קשת רחבה של מיומנויות חשיבה מסדר גבוה ובכללן חשיבה יצירתית וחשיבה ביקורתית, מיומנויות למידה שיתופיות, ומיומנויות למידה בסביבה עתירת מידע.</p>
+            </div>
+
+            <button class="accordion">
+                <div class="accordionNum">4</div>
+                <div class="accordionTitle">פיתוח הבנה מעמיקה של מושגים ועקרונות</div>
+            </button>
+            <div class="panel">
+                <p>פיתוח הבנה מעמיקה של מושגים ועקרונות בתחום שבו עוסקת הבעיה כך שניתן יהיה לשלוף אותו בעת הצורך לפתרון בעיות ולניתוח סיטואציות חדשות.</p>
+            </div>
+
+            <button class="accordion">
+                <div class="accordionNum">5</div>
+                <div class="accordionTitle">פיתוח חשיבה אנליטית לניתוח הבעיה והבנת נסיבותיה וחשיבה אינטגרטיבית-סינתטית</div>
+            </button>
+            <div class="panel">
+                <p>פיתוח חשיבה אנליטית לניתוח הבעיה והבנת נסיבותיה וחשיבה אינטגרטיבית-סינתטית שתתבטא ביכולת ליצור אינטגרציה בין תחומי הדעת הקשורים בהבנת הבעיה ובפתרונה.</p>
+            </div>
+
+
+            <!-- דרופ דאון -->
+            <div id="dragAndDropContainer">
+                <h3>תוכן הדוגמה מתבסס על נושא "ניהול זמן".</h3>
+                הגיעה השעה 20:00 בערב, ונזכרתם שאין אוכל במקרר, אין דלק באוטו, התקלקל המזגן וצריך להזמין טכנאי.
+
+                <div class="dragAndDropText">מה הדבר הראשון שהייתם עושים מבין המשימות?</div>
+                <form name="chooseName">
+                    <select name="selectName" onchange="showData()">
+                        <option value="none">בחר את תשובתך:</option>
+                        <option value="A">הולכים לסופר</option>
+                        <option value="B">הולכים לתדלק</option>
+                        <option value="C">מתקשרים לטכנאי</option>
+                        <option value="D">נוסעים לתחנת דלק ולאחר מכן לסופר ומתקשרים לטכנאי מהדרך</option>
+                        <option value="E">משתמשים באפליקציות ייעודיות</option>
+                    </select>
+                </form>
+            </div>
+
+
+            <a id="linkOriginalText" href="http://www.mofet.macam.ac.il/ktiva/Virtual/צמתים%20בדרך.pdf" target="_blank">
+                <div id="linkOriginal">
+                    קישור למאמר המקורי
+                </div>
+            </a>
+
+
+        </div>
+    </div>
+
+    <footer>
+        <div id="blackFooter">
+            <p>תוצר זה פותח במסגרת פרויקט גמר לתואר ראשון ב<a href="https://www.hit.ac.il/telem/overview" target="_blank">פקולטה לטכנולוגיות למידה</a>, HIT</p>
+        </div>
+    </footer>
+
+    <!--  סקריפט לאקורדיון  -->
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+    </script>
+
+
+
+    <!-- סקריפט לאנימציה -->
+    <script>
+$(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'zoom-in-sm',
+    outClass: 'zoom-out-sm',
+    inDuration: 3500,
+    outDuration: 1000,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+    </script>
+
+
+    <!-- סקריפט לחזרה למעלה -->
+    <script>
+$(function () {
+  $.scrollUp({
+    scrollName: 'scrollUp', // Element ID
+    topDistance: '300', // Distance from top before showing element (px)
+    topSpeed: 300, // Speed back to top (ms)
+    animation: 'slide', // Fade, slide, none
+    animationInSpeed: 200, // Animation in speed (ms)
+    animationOutSpeed: 200, // Animation out speed (ms)
+    scrollText: 'חזור למעלה', // Text for element
+    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+  });
+});
+    </script>
+
+</body>
+</html>
